@@ -2,7 +2,7 @@ pipeline {
     agent any  // Use any available agent
 
     tools {
-        gradle '    MyGradleApp'  // Ensure this matches the name configured in Jenkins
+        gradle 'MyGradleApp'  // Ensure this matches the name configured in Jenkins
         jdk 'JDK'
     }
     stages {
